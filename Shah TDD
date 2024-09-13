@@ -1,0 +1,33 @@
+Name: Steven Shah
+Date Created: 9/8/2024
+
+---
+
+Program Description:
+This program takes a message entered by the user and counts how many iterations there are of spam keywords.
+Then it calculates how likely the message is spam and displays that for the user.
+---
+
+Logical Steps:
+1. Uses for loop to count iterations of keywords.
+2. Uses if/else function to create conditions for adding to worcount accumulator.
+
+---
+
+Variables:
+1. keywords: list of spam keywords.
+2. text: the string that the user will enter
+3. wordcount: accumulator for how many iterations were found
+4. found_keywords: opens an empty list
+5. rate: the solution of the calculation
+
+---
+
+Functions:
+1. Function Name: spam_score(text)
+   Description: This function searches an entered text and counts iterations as well as appends the words to a list.
+   Parameters: if the words are in the keyword list
+   Returns: appended list of found keywords, rate of likelihood of spam, and display for user.
+
+
+Link to repository: https://github.com/Shahsteve/Spam_filter

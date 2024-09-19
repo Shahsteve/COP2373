@@ -1,0 +1,52 @@
+Name: Steven Shah
+Date Created: 9/19/2024
+
+---
+
+Program Description:
+This Program gathers expenses from the user and stores them in a list. It then
+calculates the total as well as finds the highest and lowest expense and prints
+them for the user to see.
+---
+
+Logical Steps:
+1. The program gathers information from the user.
+2. The program then appends each entry to a list.
+3. The program then calculates the total and stores highest and lowest entries gathered.
+4. The program then displays the total, highest and lowest for the user to see.
+
+---
+
+Variables:
+1. expenses: this variable stores a list with dictionaries for each type in list.
+2. expense_type: this variable stores the users entry
+3. amount: this variable stores the users numerical entry
+4. total: this variable stores the total amount of expenses
+5. highest: this variable stores the highest amount of all entries
+6. lowest: this variable stores the lowest amount of all entries
+
+---
+
+Functions:
+1. Function Name: def get_expenses():
+   Description: This functions asks user to repeatedly enter expenses until they type "end" to print totals
+		and also creates the dictionaries for each and stores in a list.
+   Parameters: No parameters
+   Returns: The dictionary expenses
+
+2. Function name: def analyzeex(expenses):
+   Description: Uses min and max to find the highest and lowest expense and the reduce function to find the total expense.
+   Parameters: expenses: the function only calculates withing the expenses list and dictionaries.
+   Returns: The total of calculated amounts, the smallest expense, and the largest expense.
+
+3. Function name: def main():
+   Description: This function calls get_expenses and analyzeex and prints them with tags.
+   Parameters: No parameters
+   Returns: a user friendly readable output of total, highest and lowest with tags.
+
+---
+
+Link to repository: https://github.com/Shahsteve/COP2373
+
+---
+

@@ -1,0 +1,52 @@
+Name: Steven Shah
+Date Created: 10/19/2024
+
+---
+
+Program Description: 
+This program accepts data from the user and verifies if the format is correct.
+
+---
+
+Logical Steps:  
+1. The program asks the user to input phone, ssn, and zip.
+2. The program then runs the numbers against the specified pattern.
+3. If the format is correct the program returns a message of validity.
+
+---
+
+Variables:  
+1. phone: user entered variable
+2. ssn: user entered variable 
+3. zipcode: user entered variable
+4. pattern: 3 variables representing the format for each user entered variable
+
+---
+
+Functions:
+1. Function Name: main()  
+   Description: This function gathers user data then prints whether it is valid formatting    	or not.  
+   Parameters: No parameters  
+   Returns: Returns a printed value for user to see.
+
+2. Function Name: valid_phone()  
+   Description: This function takes the phone number entered and compares it for a match to the pattern variable.  
+   Parameters: The parameter is phone_number and it is the variable entered by the user.  
+   Returns: A true or false expression is returned.
+
+3. Function Name: valid_ssn()  
+   Description: This function takes the social entered and compares it for a match to the pattern variable.  
+   Parameters: the parameter is ssn and it is the variable entered by the user.  
+   Returns: A true or false expression is returned.
+
+4. Function Name: valid_zip()  
+   Description: This function takes the zip code entered and compares it for a match to the 	pattern variable.  
+   Parameters: the parameter is zipcode and it is the variable entered by the user. 
+   Returns: A true or false expression is returned.
+
+---
+
+Link to repository: https://github.com/Shahsteve/COP2373
+
+---
+

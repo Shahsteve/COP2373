@@ -1,0 +1,24 @@
+Technical Design Document 
+Name: Steven Shah  
+Date Created: 10/26/2024
+
+Program Description: 
+This program gathers a users name and three test scores, calculates an average score and stores them in tabular form in a csv file.
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: calculate_average(): 
+     Description: this function takes user entered data, calculates an average score, then writes the data to a csv file and saved locally.
+     Parameters: exam1, exam2, exam3: the scores in integer form to be calculated and written to a csv file.  
+     Variables: exam1: user entered integer
+		exam2: user entered integer
+		exam3: user entered integer
+     Logical Steps:
+1.	The program asks user for data in the form of name and scores.
+2.	The program then calculates an average for the exam scores for later use.
+3.	The program then The program then stores the entered data in tabular form in a csv file.
+
+
+Link to your repository: www.github.com/shahsteve/cop2373
+
+
+

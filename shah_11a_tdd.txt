@@ -1,0 +1,42 @@
+Technical Design Document Program 11a
+Name: Steven Shah  
+Date Created: 11/17/2024
+
+Program Description: 
+This program deals the user a random set of five cards. The program then asks the user to choose which cards they would like to replace by index. The program then 
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: __init__
+     Description: This method initializes the Deck class
+     Parameters: none
+     Variables: suits: list for the cards’ suits
+	              Ranks: list for the ranks of the cards
+	              Deck : holds both rank and suit to create card deck
+2. Function Name: deal_self():
+     Description: This function initializes the empty hand and fills it randomly
+     Parameters: deck, size(5)
+     Variables: hand: empty list for function to randomly fill
+3. Function Name: print_hand():
+     Description: This function takes the hand dealt in the deal_self function and prints it for the user to see.
+     Parameters: hand
+     Variables: none
+4. Function Name: draw_new_cards():
+     Description: This function replaces cards by index with new random cards from the card stack.
+    Parameters: hand, deck, indices
+    Variables: none
+
+
+     Logical Steps:
+1.	The program prints a welcome message.
+2.	The program then initializes the deck and shuffles the stack.
+3.	The program then deals 5 random cards to the user’s hand list.
+4.	The program then prints the cards for the user to see.
+5.	The program then asks the user for the index of cards to replace.
+6.	The program then replaces the chosen indexed cards with new ones from the stack. 
+     Returns: Returns a display of the new hand of cards, with the chosen indices replaced.
+
+
+Link to your repository: www.github.com/shahsteve/cop2373
+
+
+

@@ -1,0 +1,40 @@
+Technical Design Document Program 13a
+Name: Steven Shah  
+Date Created: 12/1/2024
+
+Program Description: 
+This program creates a database of ten florida cities and their populations. The program then asks the user to choose a city, then it displays simulated population growth over the next 20 years in a plotted graph.
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: simulate_population_growth()
+     Description: This function run the calculation for population growth by using a for loop.
+     Parameters: cities_population, growth_rate=0.02, years=20
+     Variables: current_population: variable holding the starting population count
+2. Function Name: get_population_data
+     Description: This function gathers data from the database.
+     Parameters: none
+     Variables: none
+3. Function Name: plot_population_growth
+     Description: This function takes the simulated population data and plots it on a graph.
+     Parameters: city
+     Variables: years: holds value for how many year in simulation
+		Populations: holds value for how many people in city.
+4. Function Name: user_interface
+     Description: This function displays a menu for the user to choose from, or press 0 to exit.
+    Parameters: none
+    Variables: cities: stores the city names in index.
+
+
+     Logical Steps:
+1.	The program displays a menu of cites for the user to choose from.
+2.	The program then simulates population growth over the next 20 years.
+3.	The program then plots that to a graph. 
+4.	The program displays the graph for the user to see.
+5.	The program then returns the menu for the user to select another choice or exit.
+     Returns: Returns a display of user chosen city’s population growth over 20 years in graph form.
+
+
+Link to your repository: www.github.com/shahsteve/cop2373
+
+
+
